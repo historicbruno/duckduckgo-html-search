@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "DuckDuckGo HTML Search",
+    "description": "Adds DuckDuckGo HTML as a search engine for a non-JavaScript experience",
+    "version": "1.0",
+    "icons": {
+        "36": "icons/36.png",
+        "48": "icons/48.png",
+        "72": "icons/72.png",
+        "96": "icons/96.png",
+        "144": "icons/144.png",
+        "192": "icons/192.png"
+    },
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "DuckDuckGo HTML",
+            "search_url": "https://html.duckduckgo.com/html?q={searchTerms}",
+            "keyword": "ddg",
+            "favicon_url": "https://duckduckgo.com/favicon.ico",
+            "is_default": true,
+            "encoding": "UTF-8"
+        }
+    }
+}
